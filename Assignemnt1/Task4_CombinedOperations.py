@@ -6,7 +6,6 @@ def run_task(products, price_dict, categories):
     for i in range(len(products)):
         name = products[i]
         # Look up price from Task 3's dictionary
-        print(price_dict.get(name))
         category = categories[i]
         price = price_dict.get(name, 0)
         catalog.append((name, price, category))
