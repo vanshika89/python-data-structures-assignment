@@ -21,7 +21,7 @@ def run_task():
     sample_product = tuple(list_sample_product)
     print(f"Updated Sample Product: {sample_product}")
 
-# This is the "Main Line"
+
 if __name__ == "__main__":
     print("--- Running Task 1: Product Collections ---")
     run_task()

@@ -10,7 +10,7 @@ def run_task():
     price_dict['Men Trousers'] = 300
 
     # 2. Dictionary operations
-    if 'Men T-Shirt' in price_dict:      # Remove safely
+    if 'Men T-Shirt' in price_dict:  # Remove safely
         del price_dict['Men T-Shirt']
     print(price_dict)
 
@@ -26,6 +26,7 @@ def run_task():
     print(f"Min: {min_prod} at {price_dict[min_prod]}")
 
     return price_dict
+
 
 if __name__ == "__main__":
     print("--- Running Task 3: Product Pricing ---")

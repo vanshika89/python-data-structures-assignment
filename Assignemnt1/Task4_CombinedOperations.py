@@ -32,13 +32,13 @@ def run_task(products, price_dict, categories):
     print(f"Products in {max_cat}: {category_to_products[max_cat]}")
 
 
-# The Main Line
 if __name__ == "__main__":
     print("--- Running Task 4: Combined Operations ---")
 
     test_prices = {'Apple AirPods': 10000, 'Saree': 3000, 'Men T-Shirt': 400, 'Cap': 200, 'Toaster': 5000,
-                  'Cargo Pants': 450, 'Bella Vita': 3000}
-    test_categories = ['Electronics', 'Clothing', 'Clothing', 'Accessories', 'Appliances', 'Clothing', 'Fragrance', 'Sports']
+                   'Cargo Pants': 450, 'Bella Vita': 3000}
+    test_categories = ['Electronics', 'Clothing', 'Clothing', 'Accessories', 'Appliances', 'Clothing', 'Fragrance',
+                       'Sports']
     test_products = ['Apple AirPods', 'Saree', 'Men T-Shirt', 'Cap', 'Toaster', 'Cargo Pants']
 
     run_task(test_products, test_prices, test_categories)

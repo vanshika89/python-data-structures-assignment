@@ -9,8 +9,8 @@ def run_task():
     print(f"Original Categories: {categories_set}")
 
     # 2. Adding a new category and showing duplicates are ignored.
-    categories_set.add('Footwear') # Adding something new
-    categories_set.add('Clothing') # This is a duplicate (will be ignored)
+    categories_set.add('Footwear')  # Adding something new
+    categories_set.add('Clothing')  # This is a duplicate (will be ignored)
     print(f"Updated set (duplicates ignored): {categories_set}")
 
     # 3. Show how to check whether a category exists (Boolean Result)
@@ -19,6 +19,7 @@ def run_task():
 
     # Extra: Total number of unique categories
     print(f"Total number of unique categories: {len(categories_set)}")
+
 
 # The Main Line
 if __name__ == "__main__":

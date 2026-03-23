@@ -15,7 +15,6 @@ if __name__ == "__main__":
     print("-" * 30)
 
     # 3. Run Task 3 and CAPTURE the dictionary it returns
-    # Note: Make sure your Task3_ProductPricing.py ends with 'return price_dict'
     updated_prices = Task3_ProductPricing.run_task()
     print("-" * 30)
 

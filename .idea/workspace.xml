@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f83398f-d8d4-49f1-bbeb-32c795790701" name="Changes" comment="Task 2: Set">
-      <change afterPath="$PROJECT_DIR$/Assignemnt1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignemnt1/Task2_Categories.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignemnt1/Task3_ProductPricing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignemnt1/Task4_CombinedOperations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignemnt1/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0f83398f-d8d4-49f1-bbeb-32c795790701" name="Changes" comment="refactor: implement modular task structure and resolve mentor feedback">
       <change beforePath="$PROJECT_DIR$/Assignemnt1/Task1_ProductCollections.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignemnt1/Task1_ProductCollections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignemnt1/Task2_Categories.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignemnt1/Task2_Categories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignemnt1/Task3_ProductPricing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignemnt1/Task3_ProductPricing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignemnt1/Task4_CombinedOperations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignemnt1/Task4_CombinedOperations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignemnt1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignemnt1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1773250912750</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor: implement modular task structure and resolve mentor feedback">
+      <created>1774291569695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774291569695</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +203,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="python-data-structures-assignment" />
     <MESSAGE value="Task 2: Set" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2: Set" />
+    <MESSAGE value="refactor: implement modular task structure and resolve mentor feedback" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: implement modular task structure and resolve mentor feedback" />
   </component>
 </project>
