@@ -11,7 +11,7 @@ def run_task(products, price_dict, categories):
         price = price_dict.get(name, 0)
         catalog.append((name, price, category))
 
-    print(f"Step 1 - Master Catalog: {catalog}")
+    print(f"\nCatalog: {catalog}")
 
     # 2. Map categories to product names (Mapping Logic)
     category_to_products = {}
@@ -22,13 +22,13 @@ def run_task(products, price_dict, categories):
         # Append the product name to the category's list
         category_to_products[category].append(name)
 
-    print(f"\nStep 2 - Products by Category: {category_to_products}")
+    print(f"Products by Category: {category_to_products}")
 
     # 3. Find category with most products
     # Lambda Logic: Iterates through keys (k) and compares based on the length (len) of their associated lists
     max_cat = max(category_to_products, key=lambda k: len(category_to_products[k]))
 
-    print(f"\nStep 3 - Category with most products: {max_cat}")
+    print(f"\nCategory with most products: {max_cat}")
     print(f"Products in {max_cat}: {category_to_products[max_cat]}")
 
 
