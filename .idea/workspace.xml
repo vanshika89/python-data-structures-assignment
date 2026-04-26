@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f83398f-d8d4-49f1-bbeb-32c795790701" name="Changes" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/Assignment2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Task1_DiscountRules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Task2_MultipleOrders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Task3_UserMenu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Task5_LoopControl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/main.py" afterDir="false" />
+    <list default="true" id="0f83398f-d8d4-49f1-bbeb-32c795790701" name="Changes" comment="Assignment2: add logic for order discounts and implement data validation loops">
+      <change afterPath="$PROJECT_DIR$/Assignmen3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignmen3/Task1_PriceAfterDiscount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignmen3/Task2_FactorialUtility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignmen3/Task3_GSTcalculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignmen3/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,16 +49,17 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignmen3" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vanshika\Desktop\govtwebsite\Assignment1\Assignmen3" />
       <recent name="C:\Users\Vanshika\Desktop\govtwebsite\Assignment1\Assignment2" />
       <recent name="C:\Users\Vanshika\Desktop\govtwebsite\Assignment1\Assignemnt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Task1_DiscountRules">
+  <component name="RunManager" selected="Python.Task3_GSTcalculator">
     <configuration name="Task1_DiscountRules" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,6 +73,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2/Task1_DiscountRules.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Task1_PriceAfterDiscount" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Vanshika\AppData\Local\Programs\Python\Python313\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignmen3" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignmen3/Task1_PriceAfterDiscount.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,19 +123,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task2_MultipleOrders" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Task2_FactorialUtility" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Vanshika\AppData\Local\Programs\Python\Python313\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignmen3" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2/Task2_MultipleOrders.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignmen3/Task2_FactorialUtility.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,19 +144,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task3_UserMenu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3_GSTcalculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Vanshika\AppData\Local\Programs\Python\Python313\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignmen3" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2/Task3_UserMenu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignmen3/Task3_GSTcalculator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,28 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task5_LoopControl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Vanshika\AppData\Local\Programs\Python\Python313\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2/Task5_LoopControl.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Task4_CombinedOperations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -177,7 +177,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignemnt1/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignemnt1/Task4_CombinedOperations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,19 +188,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Task2_Categories" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.Task1_DiscountRules" />
-      <item itemvalue="Python.Task2_MultipleOrders" />
-      <item itemvalue="Python.Task3_UserMenu" />
-      <item itemvalue="Python.Task5_LoopControl" />
+      <item itemvalue="Python.Task4_CombinedOperations" />
+      <item itemvalue="Python.Task1_PriceAfterDiscount" />
+      <item itemvalue="Python.Task2_FactorialUtility" />
+      <item itemvalue="Python.Task3_GSTcalculator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Task3_GSTcalculator" />
+        <item itemvalue="Python.Task2_FactorialUtility" />
+        <item itemvalue="Python.Task1_PriceAfterDiscount" />
+        <item itemvalue="Python.Task4_CombinedOperations" />
         <item itemvalue="Python.Task1_DiscountRules" />
-        <item itemvalue="Python.Task3_UserMenu" />
-        <item itemvalue="Python.Task2_MultipleOrders" />
-        <item itemvalue="Python.Task5_LoopControl" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1774291921548</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Assignment2: add logic for order discounts and implement data validation loops">
+      <created>1776445296166</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776445296166</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +290,7 @@
     <MESSAGE value="Task 2: Set" />
     <MESSAGE value="refactor: implement modular task structure and resolve mentor feedback" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="Assignment2: add logic for order discounts and implement data validation loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment2: add logic for order discounts and implement data validation loops" />
   </component>
 </project>
